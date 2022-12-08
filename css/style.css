@@ -1,0 +1,140 @@
+body{
+    margin: 0;
+    background: #f3dfc1;
+}
+
+@font-face {
+    font-family: BrownSugar;
+    src: url(../fonts/BrownSugar.otf);
+}
+
+@font-face {
+    font-family: DarkerGrotesque;
+    src: url(../fonts/DarkerGrotesque-SemiBold.ttf);
+}
+
+h1{
+    font-family: BrownSugar;
+    font-size: 50px;
+    margin: 0;
+    padding: 10px;
+}
+
+p{
+    font-family: DarkerGrotesque;
+    font-size: 25px;
+}
+
+/* HEADER */
+
+.header{
+    background: #532200;
+    color: white;
+    padding: 10px;
+    left: 0;
+    top: 0;
+    right: 0;
+    font-weight: 900;
+    font-size: 1.5vw;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 85%;
+    min-width: 250px;
+    margin: 0 auto;
+}
+
+.div-header{
+    width: 33.3%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.div-header div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-header div img{
+    width: 35%;
+}
+
+.div-header div h1{
+    padding: 25px;
+    border-radius: 5px;
+    font-size: 40px;
+    letter-spacing: 3px;
+    color: white;
+}
+
+.div-header div a{
+    text-decoration:none;
+}
+
+.div-header div h1:hover{
+    background: #381700;
+}
+
+/* MAIN */
+
+
+
+.portada{
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+
+.portada img{
+    opacity: 0.7;
+    width: 100%;
+}
+
+.portada-texto{
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+
+.portada-texto h1{
+    font-size:300px;
+    color:#c08936;
+}
+
+/* RELOJES */
+
+.destacado{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.relojes-titulo h1{
+    color: #914110;
+    font-size: 100px;
+}
+
+.relojes{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #914110;
+    width: 50%;
+}
+
+.reloj{
+    width: 33.3%;
+}
+
+.reloj img{
+    width: 100%;
+}
